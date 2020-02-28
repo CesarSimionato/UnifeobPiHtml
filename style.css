@@ -260,10 +260,15 @@ section.contact div h1
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .optionsIcons a
+  {
+    width: 100%;
+    text-align: center;
+  }
   .optionsIcons i
   {
-    margin: 15px 10px;
-    font-size: 30px;
+    margin: 0;
+    font-size: 50px;
   }
   .socialIcons
   {
@@ -272,6 +277,14 @@ section.contact div h1
   .up
   {
     display: none;
+  }
+
+  [data-anime="verticalBar"]
+  {
+    z-index: -1;
+    opacity: 0;
+    transition: 0.3s;
+    transform: translate3d(0,50px,0);
   }
 }
 

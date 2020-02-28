@@ -260,6 +260,11 @@ section.contact div h1
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .optionsIcons i
+  {
+    margin: 15px 10px;
+    font-size: 30px;
+  }
   .socialIcons
   {
     display: none;

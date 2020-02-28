@@ -42,8 +42,15 @@ a {
 {
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 40px 120px;
   z-index: 10;
+}
+
+.logoMenu
+{
+  display: flex;
 }
 
 .navLogo
@@ -99,7 +106,7 @@ a {
   width: 100%;
 }
 
-.navLinks button
+.navBar button
 {
   padding: 15px 25px;
   border: 0;
@@ -246,6 +253,24 @@ section.contact div h1
 /* Responsivo */
 
 @media(max-width: 768px){
+
+  /* NavBar */
+  .navBar 
+  {
+    justify-content: center;
+  }
+
+  .navLinks
+  {
+    display: none;
+  }
+
+  .navBar button
+  {
+    display: none;
+  }
+
+  /* Menu Vertical */
   .verticalBar
   {
     width: 100%;
@@ -274,11 +299,14 @@ section.contact div h1
   {
     display: none;
   }
+
+  /* Div Up */
   .up
   {
     display: none;
   }
 
+  /* Animacao do menu Verical */
   [data-anime="verticalBar"]
   {
     z-index: -1;

@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#000">
+  <!-- <meta name="theme-color" content="#000"> -->
+  <meta name="theme-color" content="#fbff00">
   <meta name="apple-mobile-web-app-status-bar-style" content="#000">
   <meta name="msapplication-navbutton-color" content="#000">
   <title>Feob Food</title>
@@ -20,24 +21,29 @@
 
     <div class="navBar" id="navBar" data-anime="navBar">
 
-      <div class="navLogo">
-        <img src="logo.png" alt="logo">
+      <div class="logoMenu">
+
+        <div class="navLogo">
+          <img src="logo.png" alt="logo">
+        </div>
+
+        <div class="navLinks">
+          <ul>
+            <a href="#navBar" class="selected">
+              <li>Início</li>
+            </a>
+            <a href="#about">
+              <li>Sobre</li>
+            </a>
+            <a href="#contact">
+              <li>Contato</li>
+            </a>
+          </ul>
+        </div>
+
       </div>
 
-      <div class="navLinks">
-        <ul>
-          <a href="#navBar" class="selected">
-            <li>Início</li>
-          </a>
-          <a href="#about">
-            <li>Sobre</li>
-          </a>
-          <a href="#contact">
-            <li>Contato</li>
-          </a>
-        </ul>
-        <button type="button">Entrar</button>
-      </div>
+      <button type="button">Entrar</button>
 
     </div>
 
@@ -63,13 +69,13 @@
 
     <div class="optionsIcons">
       <a href="#navBar">
-        <i  class="material-icons">home</i>
+        <i class="material-icons">home</i>
       </a>
       <a href="#about">
-        <i  class="material-icons">info</i>
+        <i class="material-icons">info</i>
       </a>
       <a href="#contact">
-        <i  class="material-icons">call</i>
+        <i class="material-icons">call</i>
       </a>
     </div>
 

@@ -141,18 +141,22 @@ section.home
   height: calc(100vh - 127.5px);
 }
 
-.home h1
+section.home button
 {
-  color: #fff;
-  font-size: 64px;
-  margin: 0 0 300px 120px;
+  margin-bottom: 50px;
+  padding: 15px 25px;
+  border: 0;
+  background: var(--primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  float: right;
+  border: none;
+  font-size: 35px;
+  transition: 0.5s ease-in-out;
 }
 
-.home span
-{
-  color: var(--primary);
-}
-
+section.home div,
 section.about div,
 section.contact div
 {
@@ -258,11 +262,11 @@ section.contact div h1
   .navBar 
   {
     justify-content: center;
-    padding: 20px;
+    padding-top: 20px;
   }
   .navLogo
   {
-    width: 150px;
+    width: 200px;
   }
   .navLinks
   {

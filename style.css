@@ -267,8 +267,8 @@ section.contact div h1
   }
   .optionsIcons i
   {
-    margin: 0;
-    font-size: 50px;
+    margin: 10px 20px;
+    font-size: 30px;
   }
   .socialIcons
   {
@@ -287,14 +287,6 @@ section.contact div h1
     transform: translate3d(0,50px,0);
   }
 }
-
-
-
-
-
-
-
-
 
 
 /* ANIMACAO */

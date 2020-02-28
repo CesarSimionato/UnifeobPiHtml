@@ -242,6 +242,43 @@ section.contact div h1
   font-size: 50px;
 }
 
+
+/* Responsivo */
+
+@media(max-width: 768px){
+  .verticalBar
+  {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    bottom: 0;
+    top: auto;
+  }
+  .optionsIcons
+  {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .socialIcons
+  {
+    display: none;
+  }
+  .up
+  {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 /* ANIMACAO */
 
 [data-anime="verticalBar"]

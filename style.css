@@ -143,6 +143,7 @@ section.home
 
 section.home a
 {
+  display: none;
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 50%;
@@ -465,6 +466,12 @@ section.contact div h1
   {
     display: none;
   }
+
+  /* Botao Section Home */
+  section.home a
+{
+  display: block;
+}
 
   /* Animacao do menu Verical */
   [data-anime="verticalBar"]
